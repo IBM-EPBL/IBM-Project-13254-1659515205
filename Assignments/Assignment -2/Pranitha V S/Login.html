@@ -1,0 +1,31 @@
+<!DOCTYPE html>   
+<html>   
+<head> 
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>
+<link rel="stylesheet" type="text/css" href="C:\Users\HP\Desktop\ADL\styles.css">  
+</head>    
+<body>    
+    <center> <h1> Nutrition Assistant Application </h1> </center>   
+    <form>  
+        <div class="container">   
+            <label>Email : </label>   
+            <input type="text" placeholder="Enter Email" name="Email" required>  
+            <label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <label>Food Type</label><br>
+            <input type="radio" id="veg" name="food" value="VEG" />
+            <label for="veg">VEG</label><br>    
+            <input type="radio" id="non-veg" name="food" value="NON-VEG" />
+            <label for="non-veg">NON-VEG</label><br>
+            <label for="g">Choose Gender:</label>
+            <select name="gender" id="gender">
+            <option value="Female">FEMALE</option>
+            <option value="male">MALE</option>
+            <option value="others">OTHERS</option>
+            </select>
+            <button type="submit" onclick="document.location='file:///C:/Users/HP/Desktop/IBM/success.html'">Login</button>
+        </div>   
+    </form>     
+</body>     
+</html> 
